@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Encuesta</title>
+</head>
+<body class="body1">
+    <h1>GeeksforGeeks Survey Form</h1>
+    <form action=""></form>
+    <label for="Nombres">Nombres</label> <br>
+    <input type="text" id="Nombres" name="Nombres" placeholder="Nombres completos"> <br><br>
+    <label for="Apellidos">Correo</label> <br>
+    <input type="email" id="Correo" name="Correo" placeholder="Correo electronico"> <br><br>
+    <label for="Edad">Edad</label> <br>
+    <input type="text" id="Edad" name="Edad" placeholder="Ingrese su edad"> <br><br>
+
+    <p>¿Que opcion te describe mejor?</p>
+
+    <label for="Escoge una opcion">Escoge una opcion</label>
+    <select name="opcion" id="opcion">
+    <option value="estudiante">estudiante</option>
+    <option value="empleado">empleado</option>
+    <option value="becado">becado</option>
+    <option value="independiente">independiente</option>
+    </select>
+    
+    <p>¿Recomendarías geeksforgeeks a un amigo?</p>
+
+    <input type="radio" id="Si" name="una opcion" value="Si">
+    <label for="Si">Si</label> <br>
+    <input type="radio" id="No" name="una opcion" value="No">
+    <label for="No">No</label> <br>
+    <input type="radio" id="Quizas" name="una opcion" value="Quizas">
+    <label for="Quizas">Quizas</label>
+
+    <p>Lenguajes y marcos conocidos (marque todo lo que corresponda)</p>
+
+    <input type="checkbox" id="C" name="C" value="C">
+    <label for="C">C</label> <br>
+    <input type="checkbox" id="C++" name="C++" value="C++">
+    <label for="C++">C++</label> <br>
+    <input type="checkbox" id="C#" name="C#" value="C#">
+    <label for="C#">C#</label> <br>
+    <input type="checkbox" id="Java" name="Java" value="Java">
+    <label for="Java">Java</label> <br>
+    <input type="checkbox" id="Python" name="Phyton" value="Phyton">
+    <label for="Phyton">Phyton</label> <br>
+    <input type="checkbox" id="JavaScrip" name="JavaScrip" value="JavaScrip">
+    <label for="JavaScrip">JavaScrip</label> <br>
+    <input type="checkbox" id="React" name="React" value="React">
+    <label for="React">React</label> <br>
+    <input type="checkbox" id="Angular" name="Angular" value="Angular">
+    <label for="Angular">Angular</label> <br>
+    <input type="checkbox" id="Django" id="Django" name="Django" value="Django">
+    <label for="Django">Django</label> <br>
+    <input type="checkbox" id="Spring" name="Spring" value="Spring">
+    <label for="Spring">Spring</label>
+
+    <p>Cualquier comentario o sugerencia</p>
+
+    <textarea name="comentario" id="comentario" cols="30" rows="9" placeholder="escriba su comentario"></textarea>
+    <br>
+    <input type="submit" value="submit">
+
+</body>
+</html>
